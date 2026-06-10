@@ -182,3 +182,4 @@ select count(employee_id),department_id from employees group by department_id ha
 select job_title,avg(max_salary) from jobs group by job_title having avg(max_salary)>5000;
 
 select * from jobs;
+
